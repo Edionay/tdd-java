@@ -3,7 +3,7 @@ package com.edionay.auctionay.service;
 import com.edionay.auctionay.model.Auction;
 import com.edionay.auctionay.model.Bid;
 
-public class Auctioneer {
+public class Appraiser {
 
     private double highestBid = Double.NEGATIVE_INFINITY;
     private double lowestBid = Double.POSITIVE_INFINITY;
@@ -13,7 +13,7 @@ public class Auctioneer {
             if(bid.getValue() > highestBid) {
                 highestBid = bid.getValue();
             }
-            else if(bid.getValue() < lowestBid) {
+            if(bid.getValue() < lowestBid) {
                 lowestBid = bid.getValue();
             }
         }
