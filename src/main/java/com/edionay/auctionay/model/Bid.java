@@ -1,4 +1,4 @@
-import javax.jws.soap.SOAPBinding;
+package com.edionay.auctionay.model;
 
 public class Bid {
 

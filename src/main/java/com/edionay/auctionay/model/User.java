@@ -1,3 +1,5 @@
+package com.edionay.auctionay.model;
+
 public class User {
 
     private int id;
